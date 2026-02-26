@@ -17,6 +17,9 @@ function Scores({ courseName, courseResults }) {
             <tr key={index}>
               <td>{student.firstName}</td>
               <td>{student.lastName}</td>
+                <td className={student.score < 50 ? "warning" : ""}>
+                {student.score}
+              </td>
             </tr>
           ))}
         </tbody>
