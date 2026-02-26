@@ -109,3 +109,34 @@ body {
 .warning {
   color: var(--secondary-color);
 }
+/*  ----------  STATISTIC COMPONENT --------------------- */
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0.5rem 0.8rem 0.5rem;
+  padding: 0.8rem;
+  background-color: rgb(177, 134, 53);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.statistics div {
+  flex: 1;
+}
+
+.statistics p {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.statistics h2 {
+  margin: 0.3rem 0 0 0;
+  font-size: 1.6rem;
+  color: #333;
+}
